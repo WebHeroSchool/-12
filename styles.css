@@ -4,3 +4,27 @@ h1 {
 a {
   font-family: 'Roboto';
 }
+body{
+  margin: 0;
+}
+.wrapper{
+  margin: auto;
+  width: 80%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  padding: 40px0;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+.menu__item{
+  padding: 013px;
+}
+.menu__item: last-child{
+  padding-right: 0;
+}
