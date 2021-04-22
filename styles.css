@@ -16,7 +16,11 @@ body{
   justify-content: space-between;
 }
 .logo{
-  padding: 40px0;
+//padding: 40px 0;
+//font: bold 24px/31px PT_Serif,arial,helvetica,sans-serif;
+vidth: 190px;
+height: 35px;
+background: url('img/logo.svg');
 }
 .menu{
   display: flex;
