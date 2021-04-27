@@ -17,8 +17,7 @@ body{
 }
 .logo{
 padding: 40px 0;
-font: bold 24px/31px PT_Serif,arial,helvetica,sans-serif;
-vidth: 190px;
+width: 190px;
 height: 35px;
 background: url('imj/logo.svg') center no-repeat;
 }
