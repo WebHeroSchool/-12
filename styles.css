@@ -22,15 +22,26 @@ background: url('imj/logo.svg') center no-repeat;
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px roboto, arial, helvetica, sans-serif;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
-  transition: opacity
+  transition: opacity.0,5s;
+}
+.menu__item::after{
+  position: absolute;
+  left: 0;
+  display: block;
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #0056EC;
+  opacity: 0;
+  transition: opacity.5s,width.5s;
 }
 .menu__item:hover{
-opacity: 0,5;
+  opacity: 0.5;
 }
-.menu__item_active:hover:after{
+.menu__item_active:after{
   position: absolute;
   display: block;
   content: '';
