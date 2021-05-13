@@ -10,10 +10,14 @@ body{
   justify-content: space-between;
   margin-bottom: 100px;
 }
+.logo{
+  display: inline-block;
+}
 .logo {
-padding: 40px 0;
-font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
-background: url('imj/logo.svg') center no-repeat;
+  position: relative;
+  padding: 40px 0;
+  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  background: url('imj/logo.svg') center no-repeat;
 }
 .menu {
   display: flex;
@@ -38,9 +42,6 @@ background: url('imj/logo.svg') center no-repeat;
   opacity: 0;
   transition: opacity.5s,width.5s;
 }
-.menu__item:hover{
-  opacity: 0.5;
-}
 .menu__item_active:after{
   position: absolute;
   display: block;
@@ -51,6 +52,9 @@ background: url('imj/logo.svg') center no-repeat;
   background: #0056EC;
   opacity: 0;
   transition: opacity.5s,width.5s;
+}
+.menu__item:hover{
+  opacity: 0.5;
 }
 .menu__item:hover:after,.menu__item_active:after{
 opacity: 1;
