@@ -8,7 +8,7 @@ body{
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
 }
 .logo {
   width: 190px;
@@ -21,7 +21,7 @@ body{
 }
 .menu__item {
   position: relative;
-  margin-right: 26px;
+  margin-right: 27px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -61,12 +61,12 @@ width: 100%;
   margin-right: 0;
 }
 .main{
-  padding: 0 63% 318px 0;
+  padding: 74px 60% 318px 0;
   background: top right no-repeat url('imj/Frame.svg');
 }
 .main-content{
   padding-top: 318px;
-  width: 37%
+  width: 40%
 }
 .main-content__title{
   margin-bottom: 0 0 40px 0;
@@ -76,7 +76,7 @@ width: 100%;
   background: #ECF3FF;
 }
 .main-content__subtitle{
-  margin-bottom: 0 0 41px 0;
+  margin-bottom: 0 0 43px 0;
   font: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 .main__button{
