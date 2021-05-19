@@ -11,8 +11,7 @@ body{
   margin-bottom: 100px;
 }
 .logo {
-  position: relative;
-  padding: 40px 0;
+  margin: : 40px 0;
   font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   background: url('imj/logo.svg') center no-repeat;
 }
