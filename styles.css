@@ -62,7 +62,7 @@ width: 100%;
 }
 .main{
   padding: 74px 60% 318px 0;
-  background: top right no-repeat url('imj/Frame.svg');
+  background: right no-repeat url('imj/Frame.svg');
 }
 .main-content{
   padding-top: 318px;
@@ -76,7 +76,7 @@ width: 100%;
   background: #ECF3FF;
 }
 .main-content__subtitle{
-  margin-bottom: 0 0 43px 0;
+  margin-bottom: 0 0 41px 0;
   font: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 .main__button{
